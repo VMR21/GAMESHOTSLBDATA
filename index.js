@@ -116,3 +116,8 @@ app.get("/leaderboard/top15", (req, res) => {
 app.listen(PORT, () => {
     console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
+setInterval(() => {
+  axios.get("https://your-app-name.onrender.com")
+    .then(() => console.log("Self-ping successful."))
+    .catch(err => console.error("Self-ping failed:", err.message));
+}, 4 * 60 * 1000); // every 4 minutes
