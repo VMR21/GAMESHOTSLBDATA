@@ -24,7 +24,7 @@ const manualUsers = [
     {
         rawUsername: "Lightning01",
         startWager: 0,
-        target: 86736,
+        target: 0,
         startTime: "2025-05-15T11:17:00Z",
         endTime: "2025-05-22T18:29:59Z",
         intervalMs: 1 * 60 * 60 * 1000 // every 1 hour
@@ -32,7 +32,7 @@ const manualUsers = [
     {
         rawUsername: "Pro99",
         startWager: 0,
-        target: 81736,
+        target: 0,
         startTime: "2025-05-18T08:34:00Z",
         endTime: "2025-05-22T18:29:59Z",
         intervalMs: 30 * 60 * 1000 // every 30 minutes
@@ -40,7 +40,7 @@ const manualUsers = [
     {
         rawUsername: "GoG24",
         startWager: 0,
-        target: 76736,
+        target: 0,
         startTime: "2025-05-19T15:51:00Z",
         endTime: "2025-05-22T18:29:59Z",
         intervalMs: 20 * 60 * 1000 // every 20 minutes
@@ -78,8 +78,8 @@ async function updateLeaderboard() {
             headers: { Authorization: `Bearer ${apiKey}` },
             params: {
                 userId: "5ba1e93c-fc3e-4866-89b5-6008a888d7f7",
-                startDate: "2025-04-22T18:29:59",
-                endDate: "2025-05-22T18:29:59",
+                startDate: "2025-05-22T18:29:59",
+                endDate: "2025-06-22T18:29:59",
             },
         });
 
