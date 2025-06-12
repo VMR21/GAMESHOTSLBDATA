@@ -68,8 +68,9 @@ function getManualUsersWithProgress() {
             username: formatUsername(user.rawUsername),
             weightedWager
         };
-    });
+    }).filter(user => user.weightedWager > 0); // 🔥 Filter out users with 0 wager
 }
+
 
 // ✅ Fetches real data + merges with manual simulated users
 async function updateLeaderboard() {
