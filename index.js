@@ -24,25 +24,41 @@ const manualUsers = [
     {
         rawUsername: "Lightning01",
         startWager: 0,
-        target: 0,
-        startTime: "2025-05-15T11:17:00Z",
-        endTime: "2025-05-22T18:29:59Z",
+        target: 70912,
+        startTime: "2025-06-16T12:07:00Z",
+        endTime: "2025-06-22T18:29:59Z",
         intervalMs: 1 * 60 * 60 * 1000 // every 1 hour
     },
     {
         rawUsername: "Pro99",
         startWager: 0,
-        target: 0,
-        startTime: "2025-05-18T08:34:00Z",
-        endTime: "2025-05-22T18:29:59Z",
+        target: 64992,
+        startTime: "2025-05-16T18:34:00Z",
+        endTime: "2025-06-22T18:29:59Z",
         intervalMs: 30 * 60 * 1000 // every 30 minutes
     },
     {
         rawUsername: "GoG24",
         startWager: 0,
-        target: 0,
-        startTime: "2025-05-19T15:51:00Z",
-        endTime: "2025-05-22T18:29:59Z",
+        target: 59023,
+        startTime: "2025-05-16T21:51:00Z",
+        endTime: "2025-06-22T18:29:59Z",
+        intervalMs: 20 * 60 * 1000 // every 20 minutes
+    }
+    {
+        rawUsername: "Mcqueen",
+        startWager: 0,
+        target: 54893,
+        startTime: "2025-05-17T08:34:00Z",
+        endTime: "2025-06-22T18:29:59Z",
+        intervalMs: 30 * 60 * 1000 // every 30 minutes
+    },
+    {
+        rawUsername: "Chepira0",
+        startWager: 0,
+        target: 49281,
+        startTime: "2025-05-17T15:51:00Z",
+        endTime: "2025-06-22T18:29:59Z",
         intervalMs: 20 * 60 * 1000 // every 20 minutes
     }
 ];
