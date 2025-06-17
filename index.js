@@ -119,7 +119,7 @@ async function updateLeaderboard() {
 
     leaderboardCache = [...apiData, ...manualData]
       .sort((a, b) => b.weightedWager - a.weightedWager)
-      .slice(0, 15);
+      .slice(0, 10);
 
     console.log("🔥 Leaderboard updated:", new Date().toISOString());
     console.table(leaderboardCache);
