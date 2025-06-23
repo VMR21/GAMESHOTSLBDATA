@@ -21,35 +21,35 @@ const formatUsername = (username) => {
 const manualUsers = [
   {
     rawUsername: "Lightning01",
-    target: 70912,
+    target: 0,
     startTime: "2025-06-16T12:07:00Z",
     endTime: "2025-06-22T18:29:59Z",
     intervalMs: 6 * 60 * 1000 // every 6 minutes
   },
   {
     rawUsername: "Pro99",
-    target: 64992,
+    target: 0,
     startTime: "2025-06-16T18:34:00Z",
     endTime: "2025-06-22T18:29:59Z",
     intervalMs: 5 * 60 * 1000
   },
   {
     rawUsername: "GoG24",
-    target: 59023,
+    target: 0,
     startTime: "2025-06-16T21:51:00Z",
     endTime: "2025-06-22T18:29:59Z",
     intervalMs: 4 * 60 * 1000
   },
   {
     rawUsername: "Mcqueen",
-    target: 54893,
+    target: 0,
     startTime: "2025-06-17T08:34:00Z",
     endTime: "2025-06-22T18:29:59Z",
     intervalMs: 5 * 60 * 1000
   },
   {
     rawUsername: "Chepira0",
-    target: 49281,
+    target: 0,
     startTime: "2025-06-17T15:51:00Z",
     endTime: "2025-06-22T18:29:59Z",
     intervalMs: 4 * 60 * 1000
@@ -106,8 +106,8 @@ async function updateLeaderboard() {
       headers: { Authorization: `Bearer ${apiKey}` },
       params: {
         userId: "5ba1e93c-fc3e-4866-89b5-6008a888d7f7",
-        startDate: "2025-05-22T18:29:59",
-        endDate: "2025-06-22T18:29:59"
+        startDate: "2025-06-22T18:29:59",
+        endDate: "2025-07-22T18:29:59"
       }
     });
 
